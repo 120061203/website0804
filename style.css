@@ -1,0 +1,17 @@
+.wrap{
+    width: 960px;
+    margin: auto;
+    /* background: #ccc; */
+    display: flex;/*副層物件變成flex*/
+    /*flex-wrap: wrap;/*換行*/
+}
+.item{
+    /* width: 30000px; */
+    width: 100%;
+    margin: 0 10px 10px;
+    /* background-color: #ffa; */
+}
+.item img{
+    width: 100%;
+    vertical-align: top;
+}
